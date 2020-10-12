@@ -10,7 +10,7 @@ import (
 
 type LsLocal struct {
 	Password   *password
-	List. enAddr *net.TCPAddr
+	        ListenAddr *net.TCPAddr
 	RemoteAddr *net.TCPAddr
 }
 
